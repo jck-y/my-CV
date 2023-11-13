@@ -1,8 +1,8 @@
 import './App.css'
-import Zoom from 'react-reveal/Zoom'
+// import Zoom from 'react-reveal/Zoom'
 function App() {
   return (
-    <Zoom>
+    // <Zoom>
     <>
     <div>
   <header className="l-header" id="header">
@@ -70,9 +70,9 @@ function App() {
               </span>
             </div>
           </div>
-          <i className="bx bx-moon change-theme" title="theme" id="theme-button" onClick={themeButton} />
+          {/* <i className="bx bx-moon change-theme" title="theme" id="theme-button" onClick={themeButton} /> */}
         </section>
-        <section className="social section">
+        {/* <section className="social section">
           <h2 className="secition-title">Social</h2>
           <div className="social_container bd-grid">
             <a href="https://www.instagram.com/jckyy.kg/" target="_blank" className="social_link">
@@ -85,7 +85,7 @@ function App() {
               <i className="bx bxl-facebook-square social_icon" />jacky
             </a>
           </div>
-        </section>
+        </section> */}
         <section className="profile section" id="profile">
           <h2 className="section-title">Profile</h2>
           <p className="profile_description"> saya seorang mahasiswa</p>
@@ -234,7 +234,7 @@ function App() {
   </a>
 </div>
 </>
-</Zoom>
+// </Zoom>
   )
 }
 
