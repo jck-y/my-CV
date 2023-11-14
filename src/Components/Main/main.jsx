@@ -42,7 +42,7 @@ const Main = () => {
 </section>
       <section className="profile section" id="profile">
         <h2 className="section-title">Profile</h2>
-        <p className="profile_description"> saya seorang mahasiswa</p>
+        <p className="profile_description"> saya seorang mahasiswa universitas klabat, fakultas ilmu komputer jurusan informatika. </p>
       </section>
       <section className="education section" id="education">
         <h2 className="section-title">Education</h2>
